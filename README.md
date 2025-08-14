@@ -1,12 +1,78 @@
-# React + Vite
+# 🚀 My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated, and fully responsive portfolio built with **Next.js**, **React**, and **Tailwind CSS** — designed to showcase my projects, skills, and contact details in style. ✨
 
-Currently, two official plugins are available:
+![Portfolio Preview](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 **Beautiful UI** — Styled with Tailwind CSS and custom design tweaks
+- 🎬 **Smooth Animations** — Powered by Framer Motion
+- 📱 **Responsive Design** — Works seamlessly across devices
+- 💌 **Contact Form** — Integrated with EmailJS for instant email delivery
+- 🌌 **Interactive Backgrounds** — Particle effects, parallax scrolling, and 3D touches
+- ⚡ **Optimized Performance** — Lazy loading, image optimization, and SEO ready
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Frontend:** [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Email Service:** [EmailJS](https://www.emailjs.com/)
+- **Icons & UI Components:** Lucide Icons, Shadcn UI
+- **Hosting:** [Vercel](https://vercel.com/)
+
+---
+
+## 📂 Project Structure
+├── public/             # Static assets
+├── app/                # Next.js App Router pages & layouts
+├── components/         # Reusable React components
+├── constants/          # Data constants (projects, skills, etc.)
+├── styles/             # Global styles & Tailwind config
+└── package.json        # Project dependencies
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+**###2️⃣ Install dependencies**
+npm install
+
+3️⃣ **Configure EmailJS**
+
+Create a .env.local file and add your EmailJS keys:
+
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+
+
+4️⃣ **Run the development server**
+npm run dev
+
+Visit http://localhost:3000 to see your portfolio in action.
+
+⸻
+
+📬 Contact
+
+If you’d like to get in touch or collaborate:
+	•	Portfolio: Not yet Deployed
+	•	Email: kishorerajesh007@gmail.com
+	•	LinkedIn: https://www.linkedin.com/in/kishore-r-a5119922a/
+
+📄 License
+
+This project is licensed under the MIT License — feel free to use, modify, and share.
+
+
