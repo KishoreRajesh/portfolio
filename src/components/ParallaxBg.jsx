@@ -1,5 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { motion, useScroll, useSpring, useTransform } from 'motion/react';
+
+import sky from '/assets/sky.jpg';
+import mountain3 from '/assets/mountain-3.png';
+import planets from '/assets/planets.png';
+import mountain2 from '/assets/mountain-2.png';
+import mountain1 from '/assets/mountain-1.png';
+
 const ParallaxBg = () => {
     const { scrollYProgress } = useScroll();
     const x = useSpring(scrollYProgress,{damping: 50});
@@ -12,13 +19,13 @@ const ParallaxBg = () => {
         <div className='relative h-screen overflow-y-hidden'>
             <div className='absolute inset-0 w-full h-screen -z-50'
             style={{
-                backgroundImage:"url(/assets/sky.jpg)",
+                backgroundImage:`url(${sky})`,
                 backgroundPosition:"bottom",
                 backgroundSize:"cover",
             }} />
             <motion.div  className='absolute inset-0 -z-40'
             style={{
-                backgroundImage:"url(/assets/mountain-3.png)",
+                backgroundImage:`url(${mountain3})`,
                 backgroundPosition:"bottom",
                 backgroundSize:"cover",
                 y:moutain3Y,
@@ -26,21 +33,21 @@ const ParallaxBg = () => {
             />
             <motion.div className='absolute inset-0 -z-30'
             style={{
-                backgroundImage:"url(/assets/planets.png)",
+                backgroundImage:`url(${planets})`,
                 backgroundPosition:"bottom",
                 backgroundSize:"cover",
                 x:planetsX,
             }} />
             <motion.div className='absolute inset-0 -z-20'
             style={{
-                backgroundImage:"url(/assets/mountain-2.png)",
+                backgroundImage:`url(${mountain2})`,
                 backgroundPosition:"bottom",
                 backgroundSize:"cover",
                 y:moutain2Y
             }} />
             <motion.div className='absolute inset-0 -z-10'
             style={{
-                backgroundImage:"url(/assets/mountain-1.png)",
+                backgroundImage:`url(${mountain1})`,
                 backgroundPosition:"bottom",
                 backgroundSize:"cover",
                 y:moutain1Y,
@@ -50,4 +57,4 @@ const ParallaxBg = () => {
   )
 }
 
-export default ParallaxBg
+export default ParallaxBg;

@@ -1,3 +1,8 @@
+import whatsApp from '/assets/socials/whatsApp.svg';
+import linkedIn from '/assets/socials/linkedIn.svg';
+import instagram from '/assets/socials/instagram.svg';
+
+
 export const myProjects = [
   {
     id: 1,
@@ -16,17 +21,17 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.svg", // Assuming you have a Python logo
+        path: null, 
       },
       {
         id: 2,
         name: "Random Forest",
-        path: "/assets/logos/random-forest.svg", // Placeholder, you might need to add this
+        path: null, 
       },
       {
         id: 3,
         name: "Machine Learning",
-        path: "/assets/logos/machine-learning.svg", // Placeholder
+        path: null, 
       },
     ],
   },
@@ -47,17 +52,17 @@ export const myProjects = [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: null,
       },
       {
         id: 2,
         name: "NLP",
-        path: "/assets/logos/nlp.svg", // Placeholder
+        path: null, 
       },
       {
         id: 3,
         name: "Scikit-learn",
-        path: "/assets/logos/scikit-learn.svg", // Placeholder
+        path: null, 
       },
     ],
   },
@@ -78,17 +83,17 @@ export const myProjects = [
       {
         id: 1,
         name: "VR",
-        path: "/assets/logos/vr.svg", // Placeholder
+        path: null, 
       },
       {
         id: 2,
         name: "AI",
-        path: "/assets/logos/ai.svg", // Placeholder
+        path: null, 
       },
       {
         id: 3,
         name: "Unity",
-        path: "/assets/logos/unity.svg", // Placeholder
+        path: null, 
       },
     ],
   },
@@ -98,17 +103,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: whatsApp,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/kishore-r-a5119922a/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: linkedIn,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/kishore_rajesh_/",
-    icon: "/assets/socials/instagram.svg",
+    icon: instagram,
   },
 ];
 
