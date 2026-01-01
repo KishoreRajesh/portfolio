@@ -91,6 +91,10 @@ body {
 .nav-link {
   @apply text-lg md:text-base hover:text-white transition-colors;
 }
+.nav-link:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #33c2cc, 0 0 40px #33c2cc, 0 0 50px #33c2cc, 0 0 60px #33c2cc, 0 0 70px #33c2cc;
+}
 /* Button Components */
 .btn {
   @apply relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden;

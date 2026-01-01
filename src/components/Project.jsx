@@ -1,13 +1,11 @@
 import { useState } from "react"
 import ProjectDetail from "./ProjectDetail"
 
-const Project = ({title, description, subDescription, href, image, tags, setPreview}) => {
+const Project = ({title, description, subDescription, href, tags}) => {
   const [isHidden,setIsHidden] = useState(false);
   return (
     <>
         <div className="flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0"
-        onMouseEnter={()=>setPreview(image)} 
-        onMouseLeave={()=>setPreview(null)}
         >
             <div>
                 <p className="text-2xl">{title}</p>
@@ -23,15 +21,13 @@ const Project = ({title, description, subDescription, href, image, tags, setPrev
             </button>
         </div>
         <div  className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full"/>
-        {isHidden && (<ProjectDetail 
-        title={title} 
-        description={description} 
-        subDescription={subDescription} 
-        image={image} 
-        tags={tags} 
-        href={href}
-        closeModal={()=>setIsHidden(false)}/>)}
-    </>
+                {isHidden && (<ProjectDetail
+                title={title}
+                description={description}
+                subDescription={subDescription}
+                tags={tags}
+                href={href}
+                closeModal={()=>setIsHidden(false)}/>)}    </>
   )
 }
 

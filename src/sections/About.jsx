@@ -7,7 +7,7 @@ import { Frameworks } from '../components/Frameworks';
 const About = () => {
     const grid2Container = useRef();
   return (
-    <section className='c-space section-spacing' >
+    <section className='c-space section-spacing' id='about'>
         <h2 className='text-heading'>About me</h2>
         <div className='grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12'>
             <div className='flex items-end grid-default-color grid-1'>
@@ -66,7 +66,7 @@ const About = () => {
                     <p className='headtext'>
                         Time Zone</p>
                     <p className='subtext'>
-                        I am Pondicherry based Developer and I am ready for any remote work world-wide
+                        I am a Pondicherry based developer and I am ready for any remote work world-wide
                     </p>
                 </div>
                 <figure className='absolute left-[30%] top-[10%]'>
