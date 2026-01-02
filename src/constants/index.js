@@ -101,13 +101,12 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/917010939458",
     icon: whatsApp,
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/kishore-r-a5119922a/",
+    href: "https://www.linkedin.com/in/kishore-rajesh-khanna-a5119922a/",
     icon: linkedIn,
   },
   {
